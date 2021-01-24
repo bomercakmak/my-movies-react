@@ -1,15 +1,6 @@
 import React from 'react';
 
 const MovieList =(props) => {
-    
-        
-    
-    
-        // function handleClick(e) {
-        //     // console.log("Handle Click");
-        //     console.log(e.pageX);
-        // }
-
 
         return (
             <div className="row">
@@ -29,9 +20,6 @@ const MovieList =(props) => {
                         </div>
                     </div>
                 ))}
-
-
-
             </div>
         )
     
