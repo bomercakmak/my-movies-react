@@ -54,24 +54,24 @@ class App extends React.Component {
 
                 <div className="container">
                     <Switch>
-                    <Route path="/" exact render={() => (
-                        <React.Fragment>
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <SearchBar searchMovieProp={this.searchMovie} />
+                        <Route path="/" exact render={() => (
+                            <React.Fragment>
+                                <div className="row">
+                                    <div className="col-lg-12">
+                                        <SearchBar searchMovieProp={this.searchMovie} />
+                                    </div>
                                 </div>
-                            </div>
 
-                            <MovieList
-                                movies={filteredMovies}
-                                deleteMovieProp={this.deleteMovie}
-                            />
-                        </React.Fragment>
-                    )}>
+                                <MovieList
+                                    movies={filteredMovies}
+                                    deleteMovieProp={this.deleteMovie}
+                                />
+                            </React.Fragment>
+                        )}>
 
-                    </Route>
-                    <Route path="/add" component={AddMovie}/>
-                    </Switch>         
+                        </Route>
+                        <Route path="/add" component={AddMovie} />
+                    </Switch>
                 </div>
 
             </Router>
