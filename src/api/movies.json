@@ -22,18 +22,25 @@
       "imageURL": "https://image.tmdb.org/t/p/w220_and_h330_face/uOw5JD8IlD546feZ6oxbIjvN66P.jpg"
     },
     {
-      "id": 4,
       "name": "Project Power",
-      "rating": 6.7,
+      "rating": "8.7",
       "overview": "This is a wider card with supporting text below as a natural lead-in to additional content.",
-      "imageURL": "https://image.tmdb.org/t/p/w220_and_h330_face/TnOeov4w0sTtV2gqICqIxVi74V.jpg"
+      "imageURL": "https://image.tmdb.org/t/p/w220_and_h330_face/TnOeov4w0sTtV2gqICqIxVi74V.jpg",
+      "id": 4
     },
     {
       "id": 5,
       "name": "Superman",
       "rating": 7.6,
       "overview": "This is a wider card with supporting text below as a natural lead-in to additional content.",
-      "imageURL": "https://image.tmdb.org/t/p/w220_and_h330_face/6Bbq8qQWpoApLZYWFFAuZ1r2gFw.jpg" 
-  }
+      "imageURL": "https://image.tmdb.org/t/p/w220_and_h330_face/6Bbq8qQWpoApLZYWFFAuZ1r2gFw.jpg"
+    },
+    {
+      "name": "Ava",
+      "rating": "7.8",
+      "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qzA87Wf4jo1h8JMk9GilyIYvwsA.jpg",
+      "overview": "A black ops assassin is forced to fight for her own survival after a job goes dangerously wrong.\n\n",
+      "id": 6
+    }
   ]
 }
