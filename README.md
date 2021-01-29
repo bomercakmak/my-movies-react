@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Sample Test Video
+
+<a href="https://github.com/bomercakmak/my-movies-react/tree/master/src/gif"><img src="./src/gif/my-movies-react.gif" title="my-movies-react-gif"></a>
 
 ## Usage
 
